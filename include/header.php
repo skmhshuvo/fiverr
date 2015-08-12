@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>MyDogBook.com</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,11 +21,14 @@
   <body>
 
 
-    <section class="container" style="max-width:900px;">
-        <header>
-          <a href="index.php">
+    <section class="container bodyres" style="max-width:900px;background:#fff;">
+        <header class="row">
+          <a href="index.php" class="col-md-2">
             <img src="https://farm1.staticflickr.com/386/20247874172_665258ec0d_o_d.jpg">
           </a>
+
+          <div class="col-md-10"><h2>MyDogBook.com</h2></div>
+
         </header>
 
         <nav class="navbar navbar-default">

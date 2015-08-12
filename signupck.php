@@ -75,7 +75,7 @@ echo "<font face='Verdana' size='2' color=red>$msg</font><br><input type='button
 }else{ // if all validations are passed.
 $password_original = $password;
 $password=md5($password); // Encrypt the password before storing
-$sql=$dbo->prepare("insert into plus_signup(userid,password,email,name,sex) values(:userid,:password,:email,:name,:sex)");
+$sql=$dbo->prepare("insert into plus_signup(userid,password,email,name,sex) values(:userid,:password,:email,:name,:sex,:dog_name,:address,:phone)");
 $sql->bindParam(':userid',$userid,PDO::PARAM_STR, 15);
 $sql->bindParam(':password',$password,PDO::PARAM_STR, 32);
 $sql->bindParam(':email',$email,PDO::PARAM_STR, 75);
@@ -108,7 +108,5 @@ else{print_r($sql->errorInfo()); }
 }
 } // end of todo if condition
 ?>
-<center>
-<br><br><a href='http://www.plus2net.com' rel="nofollow">PHP SQL HTML free tutorials and scripts</a></center> 
 
 <?php include 'include/footer.php'; ?>

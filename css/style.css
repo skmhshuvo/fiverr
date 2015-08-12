@@ -1,3 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Cedarville+Cursive);
+
+body {
+	background: url(https://farm1.staticflickr.com/351/20070590720_544037cac3_b_d.jpg) fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
 .item > img {
 	width: 100%;
 	max-height: 450px;
@@ -6,4 +14,55 @@
 header > a > img {
 	max-width: 100px;
 	height: auto;
+}
+
+header {
+}
+
+.article {
+	margin-top: 40px;
+}
+
+.bodyres {
+	margin-top: 50px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+footer > center > a {
+	margin-right: 10px;
+	margin-left: 10px;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer > center > a:hover {
+	text-decoration: none;
+	color: #f5f5f5;
+}
+
+footer {
+	margin-top: 50px;
+	background: #337ab7;
+	padding: 10px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+header > div > h2 {
+	float: right;
+	margin-top: 30px;
+	font-family: 'Cedarville Cursive', cursive;
+	font-weight: bold;
+	color: #337ab7;
+}
+
+.login {
+	max-width: 270px;
+}
+
+.tabup td {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }

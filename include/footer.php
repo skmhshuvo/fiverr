@@ -1,3 +1,12 @@
+	
+
+	<footer>
+		<center>
+			<a href="index.php">Home</a> <a href="about.php">About</a> <a href="howit.php">How does it work</a>
+			<p>Copyright © 2015 PetData Inc. All rights reserved.</p>
+		</center>
+	</footer>
+
 	</section>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
